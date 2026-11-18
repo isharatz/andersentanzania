@@ -9,6 +9,7 @@
         <title>Andersen</title>
 
         <link rel="stylesheet" href="assets/css/app.css" />
+        <link rel="stylesheet" href="assets/css/careers-widget.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -175,7 +176,7 @@
                         		<div class="container">
                         			<div class="breadcrumbs">
                         				<span class="crumb home"><a href="/">Home</a></span>
-                        				<span class="crumb current">Landing Page</span>
+                                        <span class="crumb current">Careers</span>
                         			</div>
                         		</div>
                         	</div>
@@ -271,62 +272,18 @@
                         		</div>
                         	</div>
                         </div>
-<div class="section-job-application">
+<section class="section-career-opportunities" aria-labelledby="career-opportunities-title">
     <div class="container">
-
         <div class="section-heading text-center">
-            <h2>Job Application Form</h2>
-            <p>Apply to join Andersen in Tanzania by submitting your details below.</p>
+            <h2 id="career-opportunities-title">Current Opportunities</h2>
+            <p>Explore open roles and build your career with Andersen in Tanzania.</p>
         </div>
-
-        <div class="grid-x align-center">
-            <div class="cell large-6 medium-10 small-12">
-
-                <div class="job-form-card">
-                    <form action="#" method="post" enctype="multipart/form-data">
-
-                        <label>
-                            Position you are applying for
-                            <input type="text" placeholder="Enter the position" required>
-                        </label>
-
-                        <label>
-                            Your Full Name
-                            <input type="text" placeholder="Enter your full name" required>
-                        </label>
-
-                        <label>
-                            Your Email Address
-                            <input type="email" placeholder="Enter your email address" required>
-                        </label>
-
-                        <label>
-                            Contact Number
-                            <input type="text" placeholder="Enter your contact number">
-                        </label>
-
-                        <label>
-                            Application Cover Letter
-                            <input type="file">
-                        </label>
-
-                        <label>
-                            Your CV
-                            <input type="file">
-                        </label>
-
-                        <button type="submit" class="button expanded">
-                            Submit Application
-                        </button>
-
-                    </form>
-                </div>
-
-            </div>
-        </div>
-
+        <div id="ajira-jobs-widget"><p role="status">Loading opportunities...</p></div>
+        <noscript><p>Please enable JavaScript to view current opportunities.</p></noscript>
+        <script src="assets/js/careers-widget.js"></script>
+        <script src="https://ajiraai.africa/api/embed/widget/2abfae49-4e02-40ad-9da2-c4cc1ba5a7cb" async></script>
     </div>
-</div>
+</section>
 <!-- 
 						<div class="section-core_values">
     <div class="bg">
