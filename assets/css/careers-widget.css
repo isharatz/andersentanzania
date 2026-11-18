@@ -1,0 +1,16 @@
+.section-career-opportunities { padding: 64px 0; background: #f7f7f7; }
+.section-career-opportunities .section-heading { margin-bottom: 32px; }
+.section-career-opportunities h2 { color: #162d43; }
+#ajira-jobs-widget { max-width: 1000px; margin: 0 auto; color: #162d43; }
+/* The embed uses inline styles; scoped overrides retain Andersen's identity. */
+#ajira-jobs-widget > div { font-family: Roboto, sans-serif !important; color: #162d43 !important; border: 1px solid #e6e6e6 !important; border-top: 4px solid #ab0e1e !important; border-radius: 0 !important; padding: clamp(20px, 4vw, 40px) !important; background: #fff !important; box-shadow: none !important; }
+#ajira-jobs-widget h3, #ajira-jobs-widget strong { color: #162d43 !important; }
+#ajira-jobs-widget h3 { font-family: "Roboto Condensed", sans-serif; }
+#ajira-jobs-widget a { color: #ab0e1e !important; overflow-wrap: anywhere; }
+#ajira-jobs-widget a:hover strong { color: #ab0e1e !important; }
+#ajira-jobs-widget a:focus-visible { outline: 2px solid #ab0e1e; outline-offset: 4px; }
+#ajira-jobs-widget h3 + span { color: #ab0e1e !important; }
+#ajira-jobs-widget .career-role { display: block; border-top: 1px solid #e6e6e6; padding: 22px 0; text-decoration: none; }
+#ajira-jobs-widget .career-role strong { display: block; font-size: 18px; }
+#ajira-jobs-widget .career-role span { display: block; margin-top: 8px; color: #707070; font-size: 14px; }
+@media (max-width: 640px) { .section-career-opportunities { padding: 40px 0; } }
